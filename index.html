@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Paws n’ Play</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a href="#top" class="logo">🐾 Paws n’ Play</a>
+      <nav class="nav">
+        <ul>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contacts</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="btn btn-small">Get Started</a>
+    </div>
+  </header>
+
+  <section id="top" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Pawsitively Perfect: <br> Where Every Pet's Dream Comes True!</h1>
+        <p>
+          Welcome to Paws n’ Play, the ultimate destination for animal lovers!
+          Explore a world of joy and furry friendship with our wide range of
+          products and services. From luxurious accessories to fun toys, we’re
+          here to make every moment with your pet pawsitively perfect!
+        </p>
+        <a href="#shop" class="btn">Shop now 🐾</a>
+      </div>
+      <div class="hero-image" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <main id="shop" class="shop section white">
+    <div class="page">
+      <div class="shop-title">
+        <span class="paw">🐾</span>
+        <h2 class="section-title">Featured Products</h2>
+      </div>
+
+      <div class="shop-box">
+        <div class="shop-box__top">
+          <div class="shop-controls">
+            <div class="tabs" role="tablist">
+              <button class="tab is-active" data-cat="random" role="tab" aria-selected="true">Random</button>
+              <button class="tab" data-cat="cat" role="tab">Cat</button>
+              <button class="tab" data-cat="dogs" role="tab">Dogs</button>
+              <button class="tab" data-cat="fish" role="tab">Fish</button>
+              <button class="tab" data-cat="birds" role="tab">Birds</button>
+            </div>
+          </div>
+
+          <label class="search">
+            <input id="search" type="search" placeholder="Search"/>
+          </label>
+        </div>
+
+        <div id="grid" class="product-grid" aria-live="polite"></div>
+
+        <div class="shop-box__footer">
+          <a href="#shop" class="view-more">View More &gt;&gt;&gt;</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section id="services" class="section white"><div class="page"><h2 class="section-title">Services</h2></div></section>
+  <section id="about" class="section white"><div class="page"><h2 class="section-title">About Us</h2></div></section>
+  <section id="blog" class="section white"><div class="page"><h2 class="section-title">Blog</h2></div></section>
+  <section id="contact" class="section dark"><div class="page"><h2 class="section-title">Contacts</h2></div></section>
+
+</body>
+</html>
